@@ -1,0 +1,105 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 16px;
+  position: relative;
+  width: 197px;
+  min-width: 150px;
+  height: 56px;
+  margin: 0 auto;
+  padding: 16px 48px 16px 48px;
+  background: #2d6df6;
+  max-width: 427px;
+  border-radius: 28px;
+}
+.frame {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 16px;
+  position: relative;
+  width: 101px;
+  min-width: 54px;
+  height: 24px;
+  min-height: 24px;
+  padding: 4px 0 4px 0;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  max-width: 331px;
+  max-height: 24px;
+}
+.iconos-varios-lapiz {
+  flex-shrink: 0;
+  position: relative;
+  width: 24px;
+  height: 24px;
+  z-index: 1;
+  overflow: hidden;
+}
+.vector {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  margin: 4px 0 0 4px;
+  background: url(../assets/images/e6cfb042-7072-4d72-b7b7-c322989da40d.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 2;
+}
+.texto {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 8px;
+  position: relative;
+  width: 61px;
+  min-width: 50px;
+  z-index: 3;
+  max-width: 291px;
+}
+.botones {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 22px;
+  color: #ffffff;
+  font-family: Sura Sans, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  z-index: 4;
+  overflow: hidden;
+}
